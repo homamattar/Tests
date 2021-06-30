@@ -159,7 +159,14 @@ body {
   height: 50px;
   border-radius: 100%;
 }
-ul : hover {
+.nav-bar li:hover {
   cursor: pointer;
   color: red;
+}
+.apps{
+    padding: 10px;
+}
+.nav-bar li.apps:hover{
+  background: #efeeee;
+  border-radius: 50%;
 }
